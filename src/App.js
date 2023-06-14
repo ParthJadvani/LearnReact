@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from './containers/Counter';
+import CounterFunc from './containers/CounterFunc';
+import Course from './containers/Course';
+import Employee from './containers/Employee';
+import EmployeeFun from './containers/EmployeeFun';
+import Students from './containers/Students';
+import StudentsFun from './containers/StudentsFun';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Counter/>
+    <CounterFunc/>
+    </>
   );
 }
 
